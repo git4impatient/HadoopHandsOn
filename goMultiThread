@@ -1,0 +1,6 @@
+export PYTHONPATH=/usr/bin/python3
+export PYSPARK_PYTHON=/usr/bin/python3
+export HADOOP_CONF_DIR=/etc/hadoop/conf
+#spark-submit  --master yarn --driver-class-path /home/jdbc/ImpalaJDBC4.jar sparksqoop.py
+spark-submit  --master yarn --driver-class-path /home/jdbc/ImpalaJDBC4.jar sparksqoopMultiThread.py
+
